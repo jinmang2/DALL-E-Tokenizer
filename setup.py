@@ -6,10 +6,10 @@ def parse_requirements(filename):
 	return [line for line in lines if line and not line.startswith("#")]
 
 setup(
-    name='DALL-E-Tokenizer',
+    name='dall-e-tok',
     version='0.1',
     description='Huggingface package for the discrete VAE usded for DALL-E.',
-    url='https://github.com/jinmang2/DALL-E-Tokenizer',
+    url='https://github.com/jinmang2/DALL-E-Tokenizer.git',
     author='MyungHoon Jin',
     author_email='jinmang2@gmail.com',
     packages=['dall_e_tok'],
