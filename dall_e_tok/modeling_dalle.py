@@ -9,7 +9,7 @@ from collections  import OrderedDict
 
 from transformers import PreTrainedModel
 
-from .configuration_dalle imoprt DallEConfig
+from .configuration_dalle import DallEConfig
 
 
 class Conv2d(nn.Module):
