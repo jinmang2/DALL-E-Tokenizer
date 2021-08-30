@@ -1,4 +1,4 @@
-from .configuration_dalle imoprt DallEConfig
+from .configuration_dalle import DallEConfig
 
 from .modeling_dalle import (
   Conv2d, 
