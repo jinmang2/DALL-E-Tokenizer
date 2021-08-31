@@ -1,6 +1,6 @@
 # DALL-E-Tokenizer
 
-Huggingface package for the discrete VAE usded for [DALL-E](https://github.com/openai/DALL-E).
+Huggingface package for the discrete VAE used for [DALL-E](https://github.com/openai/DALL-E).
 
 # How to use
 
