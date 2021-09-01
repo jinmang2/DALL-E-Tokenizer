@@ -107,7 +107,7 @@ class DallEEncoder(DallEPreTrainedModel):
         blk_range = range(config.n_blk_per_group)
         n_layers = config.group_count * config.n_blk_per_group
         
-        in_channels = config.input_channels
+        self.in_channels = config.input_channels
         n_hid = config.n_hid
         
         self.blocks = nn.Sequential(OrderedDict([
